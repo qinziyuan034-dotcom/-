@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 背景纹理：莫兰迪低对比噪点 */
+body {
+  background-color: #c2ccd7;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(143, 168, 154, 0.28) 0, transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(200, 162, 148, 0.32) 0, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(214, 207, 196, 0.24) 0, transparent 55%);
+  min-height: 100vh;
+}
